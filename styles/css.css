@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*reset*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+	width: 100%;
+	height: 100vh;
+	background: blue;
+	position: relative;
+}
+/*header*/
+header{
+	width: 100%;
+	height: 100px;
+/*	background: red;*/
+	position: absolute;
+	z-index: 10;
+}
+.header-main{
+	width: 80%;
+	height: 100%;
+/*	background: #CF898A;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	height: 100%;
+/*	background: grey;*/
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-family:'Segoe UI';
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+.menu{
+	width: 80%;
+	height: 100%;
+/*	background: green;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+.menu ul li{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+/*	background: red;*/
+	text-align: center;
+	line-height: 30px;
+}
+.menu ul .icon{
+	width: 30px !important; 	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Segoe UI";
+	letter-spacing: 5px;
+}
+/*main*/
+main{
+	width: 100%;
+	height: 100vh;
+	background: #00888F;
+}
+.banner{
+	max-width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.banner .text-box{
+	width: 600px;
+	height: 600px;
+/*	background: red;*/
+	position: absolute;
+	z-index: 2;
+	left: 30%;
+	top:20%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 150px;
+	text-transform: uppercase;
+	color: white;
+	font-family: "Segoe UI";
+}
+.text-box p{
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+.text-box h1{
+	font-size:60px;
+	font-weight: bold;
+	letter-spacing: 15px;
+}
+.text-box a{
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 10px 50px;
+	font-weight: bold;
+	transform: 3s;
+}
+.text-box a:hover{
+	color: black;
+	background: white;
+}
+.block{
+	padding: 40px;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: 100px;
+	background: black;
+}
